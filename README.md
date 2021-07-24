@@ -1,1 +1,1 @@
-# sezginildes.githup.io
+# sezginildes.github.io
