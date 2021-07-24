@@ -19,10 +19,10 @@ menu:
     url: /feed.xml
 email: sezgin.ildes@gmail.com
 # See: https://disqus.com/
-disqus_username: disqus_username
+#disqus_username: disqus_username
 # Contact Form Setting
 # See: https://formspree.io/
-formspree_form_id: formspree_form_id
+#formspree_form_id: formspree_form_id
 
 
 # Social Media Settings
