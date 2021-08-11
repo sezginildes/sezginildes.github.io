@@ -46,7 +46,7 @@ adder(2, 6);
 
 8. Birçok mezunun yurt dışında iş imkanına erişmesi doğru mu? 🛫✈
 
-9.Türkiye’nin en iyi veri bilimi eğitimi mi?
+9. Türkiye’nin en iyi veri bilimi eğitimi mi?
 
 10. Bana ne tür katkıları oldu? 🥈🥉
 
