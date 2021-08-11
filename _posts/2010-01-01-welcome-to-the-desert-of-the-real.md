@@ -1,56 +1,21 @@
 ---
 date: 2019-05-16T23:48:05.000Z
 layout: post
-title: Welcome to the desert of the real
-subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+title: 13 Soruda Veribilimi BootCamp'ı
+subtitle: 'Bir Sosyal Bilimcinin Gözünden: [#VeriBilimi] BootCamp Nasıldı?💕'
 description: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
+  Veri Bilimi Bootcamp sürecinde gözlemlerim.
 image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
-optimized_image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme6_qeeojf.jpg
-category: blog
+https://miro.medium.com/max/1200/1*wab_oH9heFGfhSFWyevbuA.pngoptimized_image: 
+ 
+ category: blog
 tags:
   - welcome
   - blog
-author: thiagorossener
+author: Sezginildes
 paginate: true
 ---
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
-
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
-
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
-
-## Inline HTML elements
-
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
-
-* **To bold text**, use `<strong>`.
-* *To italicize text*, use `<em>`.
-* Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-* Citations, like <cite>&mdash; Thiago Rossener</cite>, should use `<cite>`.
-* <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-* Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
-
-Most of these elements are styled by browsers with few modifications on our part.
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
---page-break--
-
-## Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
+ 
 
 ```js
 // Example can be run directly in your JavaScript console
@@ -63,68 +28,40 @@ adder(2, 6);
 // > 8
 ```
 
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+# Bir Sosyal Bilimcinin Gözünden: [#VeriBilimi] BootCamp Nasıldı?💕
 
-## Lists
+1. Neden başvurma ihtiyacı hissettim? ❤❤❤❤
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+2. Başvurmadan önce BootCamp sürecini nasıl analiz ettim? 🔐➡🔑
 
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
+3. Kurs ücreti çok mu? 💸💰💱 ⏯🧮
 
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+4. Başvuracak adaylar nelere dikkat etmeli?
 
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
+5. Vahit Keskin konu anlatımı nasıl?
 
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+6. Öğrencilerin dersleri bu kadar sevmesi ve hocanın kapslerini yapacak kadar sevmesinin nedeni nedir?
 
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
+7. Mentorluk Görüşmeleri nedir?🤼‍♀️🤼‍♀️
 
-## Images
+8. Birçok mezunun yurt dışında iş imkanına erişmesi doğru mu? 🛫✈
 
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
+9.Türkiye’nin en iyi veri bilimi eğitimi mi?
 
-![placeholder](https://placehold.it/800x400 "Large example image") ![placeholder](https://placehold.it/400x200 "Medium example image") ![placeholder](https://placehold.it/200x200 "Small example image")
+10. Bana ne tür katkıları oldu? 🥈🥉
 
-## Tables
+11. Keşke yapsaydım dediğim şeyler oldu mu?😭 😭
 
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+11. Neden başvurmamalısınız? 🤷‍♂
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
+13. Neden başvurmalısınız? 😍
 
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+Eğitimi için [Vahit Keskin](https://www.linkedin.com/in/vahitkeskin/)
+
+Mentor ekibim [Ahmetcan Karaoğlan](https://www.linkedin.com/in/ahmetcankaraoglan/), [Cem İstanbullu](https://www.linkedin.com/in/cemistanbullu/)
+
+[Anıl GEVREK](https://www.linkedin.com/in/anilgevrek/) ve [Kader Durak](https://www.linkedin.com/in/kader-durak-058ba0110/)
+
+ve çokça şey öğrendiğim grup arkadaşlarıma bolca teşekkürlerimi iletiyorum. Gönüllü dersler açan
+
+[Cemal Cici](https://www.linkedin.com/in/ACoAABYpjboBDW8PDIt4iTz2ztPWJzEU0T2jyXU), [Sinan ARTUN](https://www.linkedin.com/in/ACoAAAaSiioBIJrSwhDXGxfC22onrZ3nUFZ4F-I), [Ömer Çolakoğlu](https://www.linkedin.com/in/ACoAABPF3MsBjjzerDoNa62oYXjgcU6pneTQEDI) ve diğer hocalara teşekkür ederim. 😍
