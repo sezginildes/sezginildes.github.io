@@ -1,5 +1,5 @@
 ---
-date: 2019-05-16T23:48:05.000Z
+date: 2021-08-11T23:48:05.000Z
 layout: post
 title: 13 Soruda Veribilimi BootCamp'ı
 subtitle: 'Bir Sosyal Bilimcinin Gözünden: [#VeriBilimi] BootCamp Nasıldı?💕'
