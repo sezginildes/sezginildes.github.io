@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sezgin Ildes — Learning & Development</title>
+<title>Sezgin Ildes — People Development Specialist</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -27,9 +27,7 @@
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
-
   html { scroll-behavior: smooth; }
-
   body {
     font-family: var(--sans);
     background: var(--paper);
@@ -39,7 +37,6 @@
     overflow-x: hidden;
   }
 
-  /* ── LANG TOGGLE ── */
   .lang-bar {
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -54,7 +51,6 @@
     font-family: var(--mono);
     font-size: 12px;
   }
-
   .lang-bar .logo {
     font-family: var(--serif);
     font-size: 14px;
@@ -62,7 +58,6 @@
     text-decoration: none;
     font-weight: 600;
   }
-
   .nav-links { display: flex; gap: 1.5rem; align-items: center; }
   .nav-links a {
     color: var(--ink3);
@@ -72,7 +67,6 @@
     transition: color 0.2s;
   }
   .nav-links a:hover { color: var(--ink); }
-
   .lang-btn {
     display: flex;
     border: 1px solid var(--paper3);
@@ -96,7 +90,6 @@
     color: var(--paper);
   }
 
-  /* ── HERO ── */
   .hero {
     margin-top: 48px;
     padding: 5rem 2rem 4rem;
@@ -108,7 +101,6 @@
     gap: 3rem;
     align-items: start;
   }
-
   .hero-tag {
     font-family: var(--mono);
     font-size: 11px;
@@ -126,7 +118,6 @@
     height: 1px;
     background: var(--accent2);
   }
-
   .hero h1 {
     font-family: var(--serif);
     font-size: clamp(2rem, 5vw, 3.2rem);
@@ -135,12 +126,7 @@
     margin-bottom: 1.25rem;
     color: var(--ink);
   }
-
-  .hero h1 em {
-    font-style: italic;
-    color: var(--accent);
-  }
-
+  .hero h1 em { font-style: italic; color: var(--accent); }
   .hero-sub {
     font-size: 15px;
     color: var(--ink2);
@@ -148,7 +134,6 @@
     max-width: 520px;
     margin-bottom: 2rem;
   }
-
   .status-pill {
     display: inline-flex;
     align-items: center;
@@ -171,7 +156,6 @@
     0%, 100% { opacity: 1; }
     50% { opacity: 0.4; }
   }
-
   .hero-links {
     display: flex;
     flex-wrap: wrap;
@@ -201,10 +185,7 @@
     color: var(--paper);
     border-color: var(--ink);
   }
-  .hero-links a.primary:hover {
-    background: var(--ink2);
-  }
-
+  .hero-links a.primary:hover { background: var(--ink2); }
   .avatar-wrap {
     display: flex;
     flex-direction: column;
@@ -224,8 +205,6 @@
     font-weight: 600;
     color: var(--ink2);
     border: 3px solid var(--paper3);
-    position: relative;
-    overflow: hidden;
   }
   .avatar-loc {
     font-family: var(--mono);
@@ -234,14 +213,12 @@
     text-align: center;
   }
 
-  /* ── SECTION ── */
   section {
     max-width: 900px;
     margin: 0 auto;
     padding: 4rem 2rem;
     border-top: 1px solid var(--paper3);
   }
-
   .sec-header {
     display: flex;
     align-items: baseline;
@@ -256,11 +233,7 @@
     text-transform: uppercase;
     white-space: nowrap;
   }
-  .sec-line {
-    flex: 1;
-    height: 1px;
-    background: var(--paper3);
-  }
+  .sec-line { flex: 1; height: 1px; background: var(--paper3); }
   .sec-title {
     font-family: var(--serif);
     font-size: 1.6rem;
@@ -269,17 +242,8 @@
     margin-bottom: 0.5rem;
   }
 
-  /* ── ABOUT ── */
-  .about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-  }
-  .about-text {
-    font-size: 15px;
-    color: var(--ink2);
-    line-height: 1.8;
-  }
+  .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .about-text { font-size: 15px; color: var(--ink2); line-height: 1.8; }
   .about-quote {
     font-family: var(--serif);
     font-style: italic;
@@ -308,14 +272,8 @@
     color: var(--blue);
     line-height: 1;
   }
-  .stat-desc {
-    font-size: 12px;
-    color: var(--ink3);
-    margin-top: 4px;
-    font-family: var(--mono);
-  }
+  .stat-desc { font-size: 12px; color: var(--ink3); margin-top: 4px; font-family: var(--mono); }
 
-  /* ── EXPERIENCE ── */
   .exp-item {
     display: grid;
     grid-template-columns: 130px 1fr;
@@ -324,49 +282,13 @@
     border-bottom: 1px solid var(--paper3);
   }
   .exp-item:last-child { border: none; }
-  .exp-date {
-    font-family: var(--mono);
-    font-size: 11px;
-    color: var(--ink3);
-    padding-top: 4px;
-    line-height: 1.6;
-  }
-  .exp-company {
-    font-family: var(--mono);
-    font-size: 11px;
-    color: var(--blue);
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    margin-bottom: 3px;
-  }
-  .exp-role {
-    font-family: var(--serif);
-    font-size: 1.05rem;
-    font-weight: 600;
-    margin-bottom: 6px;
-    line-height: 1.3;
-  }
-  .exp-desc {
-    font-size: 13px;
-    color: var(--ink2);
-    line-height: 1.65;
-  }
-  .exp-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    margin-top: 8px;
-  }
-  .tag {
-    padding: 2px 9px;
-    border-radius: 20px;
-    font-size: 11px;
-    font-family: var(--mono);
-    background: var(--paper3);
-    color: var(--ink2);
-  }
+  .exp-date { font-family: var(--mono); font-size: 11px; color: var(--ink3); padding-top: 4px; line-height: 1.6; }
+  .exp-company { font-family: var(--mono); font-size: 11px; color: var(--blue); letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 3px; }
+  .exp-role { font-family: var(--serif); font-size: 1.05rem; font-weight: 600; margin-bottom: 6px; line-height: 1.3; }
+  .exp-desc { font-size: 13px; color: var(--ink2); line-height: 1.65; }
+  .exp-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+  .tag { padding: 2px 9px; border-radius: 20px; font-size: 11px; font-family: var(--mono); background: var(--paper3); color: var(--ink2); }
 
-  /* ── CARDS GRID ── */
   .cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -383,27 +305,15 @@
     color: inherit;
     display: block;
   }
-  .card:hover {
-    border-color: var(--ink3);
-    background: var(--paper2);
-    transform: translateY(-2px);
+  .card:hover { border-color: var(--ink3); background: var(--paper2); transform: translateY(-2px); }
+  .card.featured {
+    border-color: var(--accent2);
+    background: var(--accent-pale);
   }
-  .card-icon {
-    font-size: 20px;
-    margin-bottom: 10px;
-    display: block;
-  }
-  .card-title {
-    font-family: var(--serif);
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: 5px;
-  }
-  .card-desc {
-    font-size: 12px;
-    color: var(--ink3);
-    line-height: 1.6;
-  }
+  .card.featured:hover { background: #c7edcd; }
+  .card-icon { font-size: 20px; margin-bottom: 10px; display: block; }
+  .card-title { font-family: var(--serif); font-size: 1rem; font-weight: 600; margin-bottom: 5px; }
+  .card-desc { font-size: 12px; color: var(--ink3); line-height: 1.6; }
   .card-badge {
     display: inline-block;
     margin-top: 10px;
@@ -414,16 +324,9 @@
     background: var(--amber-pale);
     color: var(--amber);
   }
-  .card-badge.blue {
-    background: var(--blue-pale);
-    color: var(--blue);
-  }
-  .card-badge.green {
-    background: var(--accent-pale);
-    color: var(--accent);
-  }
+  .card-badge.blue { background: var(--blue-pale); color: var(--blue); }
+  .card-badge.green { background: var(--accent-pale); color: var(--accent); }
 
-  /* ── BLOG ── */
   .post-item {
     display: grid;
     grid-template-columns: 90px 1fr;
@@ -433,69 +336,17 @@
     align-items: start;
   }
   .post-item:last-child { border: none; }
-  .post-date {
-    font-family: var(--mono);
-    font-size: 11px;
-    color: var(--ink3);
-    padding-top: 3px;
-  }
-  .post-title {
-    font-family: var(--serif);
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: 4px;
-    color: var(--ink);
-  }
-  .post-preview {
-    font-size: 13px;
-    color: var(--ink3);
-    line-height: 1.55;
-  }
-  .post-lang {
-    display: inline-block;
-    margin-top: 6px;
-    padding: 1px 7px;
-    border-radius: 10px;
-    font-size: 10px;
-    font-family: var(--mono);
-    background: var(--paper3);
-    color: var(--ink3);
-  }
+  .post-date { font-family: var(--mono); font-size: 11px; color: var(--ink3); padding-top: 3px; }
+  .post-title { font-family: var(--serif); font-size: 1rem; font-weight: 600; margin-bottom: 4px; color: var(--ink); }
+  .post-preview { font-size: 13px; color: var(--ink3); line-height: 1.55; }
+  .post-lang { display: inline-block; margin-top: 6px; padding: 1px 7px; border-radius: 10px; font-size: 10px; font-family: var(--mono); background: var(--paper3); color: var(--ink3); }
 
-  /* ── SKILLS ── */
-  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-  }
-  .skill-group h4 {
-    font-family: var(--mono);
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--ink3);
-    margin-bottom: 10px;
-  }
-  .skill-list {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-  .skill-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 13px;
-    color: var(--ink2);
-  }
-  .skill-dot {
-    width: 5px; height: 5px;
-    border-radius: 50%;
-    background: var(--accent2);
-    flex-shrink: 0;
-  }
+  .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+  .skill-group h4 { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink3); margin-bottom: 10px; }
+  .skill-list { display: flex; flex-direction: column; gap: 6px; }
+  .skill-item { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--ink2); }
+  .skill-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--accent2); flex-shrink: 0; }
 
-  /* ── FOOTER ── */
   footer {
     max-width: 900px;
     margin: 0 auto;
@@ -509,26 +360,17 @@
     color: var(--ink3);
   }
 
-  /* ── ANIMATIONS ── */
-  .fade-in {
-    opacity: 0;
-    transform: translateY(16px);
-    animation: fadeIn 0.6s ease forwards;
-  }
-  @keyframes fadeIn {
-    to { opacity: 1; transform: none; }
-  }
+  .fade-in { opacity: 0; transform: translateY(16px); animation: fadeIn 0.6s ease forwards; }
+  @keyframes fadeIn { to { opacity: 1; transform: none; } }
   .fade-in:nth-child(1) { animation-delay: 0.1s; }
   .fade-in:nth-child(2) { animation-delay: 0.2s; }
   .fade-in:nth-child(3) { animation-delay: 0.3s; }
   .fade-in:nth-child(4) { animation-delay: 0.4s; }
 
-  /* ── LANGUAGE TOGGLE ── */
   [data-tr] { display: none; }
   body.tr [data-en] { display: none; }
   body.tr [data-tr] { display: revert; }
 
-  /* ── RESPONSIVE ── */
   @media (max-width: 680px) {
     .hero { grid-template-columns: 1fr; }
     .avatar-wrap { display: none; }
@@ -566,8 +408,9 @@
 <!-- HERO -->
 <div class="hero">
   <div>
-    <div class="hero-tag fade-in" data-en>Learning & Development · Istanbul</div>
-    <div class="hero-tag fade-in" data-tr>Öğrenme & Gelişim · İstanbul</div>
+    <!-- DEĞIŞIKLIK 1: "Learning & Development" → "People Development Specialist" -->
+    <div class="hero-tag fade-in" data-en>People Development Specialist · Istanbul</div>
+    <div class="hero-tag fade-in" data-tr>People Development Specialist · İstanbul</div>
 
     <h1 class="fade-in">
       <span data-en>Building human systems<br>that <em>actually work.</em></span>
@@ -575,8 +418,8 @@
     </h1>
 
     <p class="hero-sub fade-in">
-      <span data-en>I'm Sezgin — an Educational Psychologist and L&D Specialist. I turn behavioral science into daily tools, reflection systems, and dashboards that help people grow consistently.</span>
-      <span data-tr>Ben Sezgin — Eğitim Psikoloğu ve Öğrenme & Gelişim Uzmanıyım. Davranış bilimini günlük araçlara, yansıma sistemlerine ve büyümeyi görünür kılan panellere dönüştürüyorum.</span>
+      <span data-en>I'm Sezgin — a People Development Specialist with a background in Educational Psychology. I bridge behavioral science with data tools and design to create structures that make organizational growth measurable and lasting.</span>
+      <span data-tr>Ben Sezgin — Eğitim Psikoloğu altyapısıyla People Development alanında çalışıyorum. Davranış bilimini veri araçlarına ve tasarıma köprüleyerek kurumsal büyümeyi ölçülebilir ve kalıcı kılan yapılar kuruyorum.</span>
     </p>
 
     <div class="status-pill fade-in">
@@ -600,8 +443,9 @@
     <div class="avatar">SI</div>
     <div class="avatar-loc">📍 Istanbul, TR</div>
     <div class="avatar-loc" style="margin-top:6px;font-size:10px;">
-      <span data-en>Educational Psychologist</span>
-      <span data-tr>Eğitim Psikoloğu</span>
+      <!-- DEĞIŞIKLIK 2: "Educational Psychologist" → "People Dev. Specialist" -->
+      <span data-en>People Dev. Specialist</span>
+      <span data-tr>People Dev. Specialist</span>
     </div>
   </div>
 </div>
@@ -617,42 +461,43 @@
   <div class="about-grid">
     <div>
       <p class="about-text" data-en>
-        My work sits at the intersection of psychology, data, and design. I help people build study habits, focus systems, and a stronger sense of belonging — not through motivation speeches, but through structures that make growth measurable and sustainable.
+        My work sits at the intersection of psychology, data, and design. I help organizations build development systems that are measurable, scalable, and genuinely human-centered — not through motivational talks, but through structures that make growth visible and sustainable.
       </p>
       <p class="about-text" data-tr style="margin-top: 0;">
-        Psikoloji, veri ve tasarımın kesişiminde çalışıyorum. İnsanların çalışma alışkanlıkları, odaklanma sistemleri ve aidiyet duygusu geliştirmelerine yardımcı oluyorum — motivasyon konuşmalarıyla değil, büyümeyi ölçülebilir ve sürdürülebilir kılan yapılarla.
+        Psikoloji, veri ve tasarımın kesişiminde çalışıyorum. Kurumlara ölçülebilir, ölçeklenebilir ve gerçekten insan odaklı gelişim sistemleri kuruyorum — motivasyon konuşmalarıyla değil, büyümeyi görünür ve sürdürülebilir kılan yapılarla.
       </p>
 
       <blockquote class="about-quote" data-en>
-        "I can actually change how I learn." — That moment when growth becomes visible is what drives me.
+        "The moment growth becomes visible — that's what drives me."
       </blockquote>
       <blockquote class="about-quote" data-tr>
-        "Öğrenme şeklimi gerçekten değiştirebilirim." — Büyümenin görünür hale geldiği o an beni motive ediyor.
+        "Büyümenin görünür hale geldiği o an beni motive ediyor."
       </blockquote>
 
       <p class="about-text" data-en>
-        Over 5+ years, I've worked across HR, coaching, educational counseling, and data science — always asking the same question: how do we make learning stick?
+        Over 5+ years in coaching, L&D, talent development, and data analysis, I've always asked the same question: how do we make learning stick?
       </p>
       <p class="about-text" data-tr>
-        5+ yıl boyunca İK, koçluk, eğitim danışmanlığı ve veri bilimi alanlarında çalıştım — hep aynı soruyu sorarak: öğrenmeyi nasıl kalıcı hale getiririz?
+        5+ yıl boyunca koçluk, L&D, yetenek geliştirme ve veri analizi alanlarında çalıştım — hep aynı soruyu sorarak: öğrenmeyi nasıl kalıcı hale getiririz?
       </p>
     </div>
 
     <div class="stats-grid">
+      <!-- DEĞIŞIKLIK 3: 50+ → 120+ seminer -->
       <div class="stat-card">
-        <div class="stat-num">50+</div>
-        <div class="stat-desc" data-en>students & professionals guided</div>
-        <div class="stat-desc" data-tr>rehberlik edilen öğrenci</div>
+        <div class="stat-num">120+</div>
+        <div class="stat-desc" data-en>psycho-ed seminars facilitated</div>
+        <div class="stat-desc" data-tr>psiko-eğitim semineri yürütüldü</div>
       </div>
       <div class="stat-card">
         <div class="stat-num">36</div>
-        <div class="stat-desc" data-en>week counseling curriculum designed</div>
-        <div class="stat-desc" data-tr>haftalık psikolojik danışmanlık programı</div>
+        <div class="stat-desc" data-en>week development curriculum</div>
+        <div class="stat-desc" data-tr>haftalık gelişim programı</div>
       </div>
       <div class="stat-card">
         <div class="stat-num">5+</div>
-        <div class="stat-desc" data-en>years in L&D & HR</div>
-        <div class="stat-desc" data-tr>yıl L&D ve İK deneyimi</div>
+        <div class="stat-desc" data-en>years in L&D & development</div>
+        <div class="stat-desc" data-tr>yıl L&D ve gelişim deneyimi</div>
       </div>
       <div class="stat-card">
         <div class="stat-num">3</div>
@@ -675,11 +520,11 @@
     <div class="exp-date">Oct 2024<br>Present</div>
     <div>
       <div class="exp-company">Nazmi Arıkan Fen Bilimleri</div>
-      <div class="exp-role" data-en>Educational Coach & Guidance Counselor</div>
-      <div class="exp-role" data-tr>Eğitim Koçu & Psikolojik Danışman</div>
-      <div class="exp-desc" data-en>Designed a 36-week counseling curriculum for high school students. Digitized performance monitoring with Excel; transitioning to Power BI. Facilitated group seminars for 50+ students on motivation and internal discipline.</div>
-      <div class="exp-desc" data-tr>Lise öğrencileri için 36 haftalık psikolojik danışmanlık programı tasarladım. Excel tabanlı takip sistemlerini dijitalleştirdim; Power BI'a geçiş sürecindeyim. 50+ öğrenciyle motivasyon ve iç disiplin seminerleri yürüttüm.</div>
-      <div class="exp-tags"><span class="tag">Counseling</span><span class="tag">Power BI</span><span class="tag">Curriculum Design</span></div>
+      <div class="exp-role" data-en>L&D Specialist & Development Coach</div>
+      <div class="exp-role" data-tr>L&D Uzmanı & Gelişim Koçu</div>
+      <div class="exp-desc" data-en>Designed a 36-week structured development program for 50+ students covering exam anxiety, focus management, and performance. Built Excel-based performance dashboards for institutional reporting; transitioning to Power BI. Led "Be the Leader of Your Life" psycho-educational seminars for 120+ participants.</div>
+      <div class="exp-desc" data-tr>50+ öğrenci için 36 haftalık yapılandırılmış gelişim programı tasarladım. Excel tabanlı performans panoları kurdum; Power BI'a geçiş sürecindeyim. "Hayatının Lideri Ol" psiko-eğitim seminerleriyle 120+ katılımcıya ulaştım.</div>
+      <div class="exp-tags"><span class="tag">Curriculum Design</span><span class="tag">Power BI</span><span class="tag">Psycho-education</span></div>
     </div>
   </div>
 
@@ -687,9 +532,9 @@
     <div class="exp-date">Sep 2025<br>Jan 2026</div>
     <div>
       <div class="exp-company">Miuul</div>
-      <div class="exp-role" data-en>HR Analyst Participant</div>
+      <div class="exp-role" data-en>HR Analytics Participant</div>
       <div class="exp-role" data-tr>İK Analisti Katılımcısı</div>
-      <div class="exp-desc" data-en>Intensive HR analytics program focusing on data-driven people operations.</div>
+      <div class="exp-desc" data-en>Intensive program focused on data-driven people operations and HR analytics.</div>
       <div class="exp-desc" data-tr>Veri odaklı insan kaynakları operasyonlarına odaklanan yoğun program.</div>
       <div class="exp-tags"><span class="tag">HR Analytics</span><span class="tag">Data</span></div>
     </div>
@@ -701,21 +546,22 @@
       <div class="exp-company">Miuul · Sweden (Remote)</div>
       <div class="exp-role" data-en>Career & Development Coach</div>
       <div class="exp-role" data-tr>Kariyer & Gelişim Koçu</div>
-      <div class="exp-desc" data-en>Guided participants in building personalized career plans. Facilitated workshops and 1-on-1 sessions, monitored progress, and provided ongoing feedback. Also handled candidate screening and talent acquisition.</div>
-      <div class="exp-desc" data-tr>Katılımcılara kişiselleştirilmiş kariyer planları oluşturmalarında rehberlik ettim. Atölye çalışmaları ve birebir görüşmeler yürüttüm, ilerlemeyi takip ettim ve sürekli geri bildirim sağladım.</div>
-      <div class="exp-tags"><span class="tag">Career Coaching</span><span class="tag">Talent Acquisition</span><span class="tag">Remote</span></div>
+      <div class="exp-desc" data-en>Guided participants in building personalized career plans using structured frameworks for strengths identification and goal setting. Facilitated workshops and 1-on-1 sessions with continuous feedback loops.</div>
+      <div class="exp-desc" data-tr>Katılımcılara kişiselleştirilmiş kariyer planları oluşturmalarında rehberlik ettim. Atölye çalışmaları ve birebir görüşmeler yürüttüm; sürekli geri bildirim döngüleri kurdum.</div>
+      <div class="exp-tags"><span class="tag">Career Coaching</span><span class="tag">Group Facilitation</span><span class="tag">Remote</span></div>
     </div>
   </div>
 
+  <!-- DEĞIŞIKLIK 4: IT Recruiter etiketi kaldırıldı, rol yeniden çerçevelendi -->
   <div class="exp-item">
     <div class="exp-date">Apr 2022<br>Mar 2023</div>
     <div>
       <div class="exp-company">innoscripta GmbH</div>
-      <div class="exp-role" data-en>International IT Recruiter & Talent Management Specialist</div>
-      <div class="exp-role" data-tr>Uluslararası BT İşe Alım & Yetenek Yönetimi Uzmanı</div>
-      <div class="exp-desc" data-en>Recruited for Fullstack, Frontend (React.js), QA, PM, and B2B Sales roles. Created personalized career roadmaps and monitored employee wellbeing.</div>
-      <div class="exp-desc" data-tr>Fullstack, Frontend (React.js), QA, PM ve B2B Satış pozisyonları için işe alım yaptım. Kişiselleştirilmiş kariyer yol haritaları oluşturdum.</div>
-      <div class="exp-tags"><span class="tag">IT Recruiting</span><span class="tag">React.js</span><span class="tag">Career Roadmaps</span></div>
+      <div class="exp-role" data-en>Talent Assessment & Development Specialist</div>
+      <div class="exp-role" data-tr>Yetenek Değerlendirme & Gelişim Uzmanı</div>
+      <div class="exp-desc" data-en>Analyzed candidate–culture fit using behavioral interview techniques in a fully English-speaking international environment. Created personalized career development plans for employees and monitored progress with regular feedback cycles.</div>
+      <div class="exp-desc" data-tr>Uluslararası İngilizce ortamda davranışsal mülakat teknikleriyle aday–kurum uyumunu analiz ettim. Çalışanlar için kişiselleştirilmiş kariyer gelişim planları oluşturdum; düzenli geri bildirimlerle ilerlemeyi takip ettim.</div>
+      <div class="exp-tags"><span class="tag">Talent Assessment</span><span class="tag">Career Development</span><span class="tag">Behavioral Interviews</span></div>
     </div>
   </div>
 
@@ -725,9 +571,9 @@
       <div class="exp-company">Miuul</div>
       <div class="exp-role" data-en>HR Generalist & Career Counselor</div>
       <div class="exp-role" data-tr>İK Generalist & Kariyer Danışmanı</div>
-      <div class="exp-desc" data-en>Managed job placement and onboarding for Data Science & ML Bootcamp graduates (DSMLB 8–11). Organized interviews and provided career counseling.</div>
-      <div class="exp-desc" data-tr>Veri Bilimi ve Makine Öğrenmesi Bootcamp mezunları için iş yerleştirme ve işe alım süreçlerini yönettim.</div>
-      <div class="exp-tags"><span class="tag">Data Science</span><span class="tag">Onboarding</span><span class="tag">LMS</span></div>
+      <div class="exp-desc" data-en>Managed placement and onboarding for Data Science & ML Bootcamp graduates. Took an active role in LMS systems and onboarding process design.</div>
+      <div class="exp-desc" data-tr>Veri Bilimi ve Makine Öğrenmesi Bootcamp mezunları için iş yerleştirme ve işe alım süreçlerini yönettim. LMS sistemleri ve onboarding tasarımında aktif rol aldım.</div>
+      <div class="exp-tags"><span class="tag">LMS</span><span class="tag">Onboarding</span><span class="tag">Data Science</span></div>
     </div>
   </div>
 
@@ -735,11 +581,11 @@
     <div class="exp-date">Sep 2019<br>Feb 2020</div>
     <div>
       <div class="exp-company">MEF University</div>
-      <div class="exp-role" data-en>Teacher Assistant</div>
+      <div class="exp-role" data-en>Teaching Assistant</div>
       <div class="exp-role" data-tr>Öğretim Asistanı</div>
-      <div class="exp-desc" data-en>Guided students in Statistics I & II and Introduction to Computer (Java).</div>
-      <div class="exp-desc" data-tr>İstatistik I & II ve Bilgisayara Giriş (Java) derslerinde öğrencilere destek oldum.</div>
-      <div class="exp-tags"><span class="tag">Statistics</span><span class="tag">Java</span><span class="tag">Teaching</span></div>
+      <div class="exp-desc" data-en>Taught SPSS-based data analysis in Statistics I & II courses. Provided academic research consulting for students.</div>
+      <div class="exp-desc" data-tr>İstatistik I & II derslerinde SPSS ile veri analizi eğitimi verdim. Akademik araştırma danışmanlığı yürüttüm.</div>
+      <div class="exp-tags"><span class="tag">SPSS</span><span class="tag">Statistics</span><span class="tag">Teaching</span></div>
     </div>
   </div>
 </section>
@@ -753,21 +599,40 @@
   </div>
 
   <div class="cards-grid">
-    <a class="card" href="https://linkedin.com/in/sezginildes" target="_blank">
+    <!-- DEĞIŞIKLIK 5: Quest Journal öne çıkarıldı, featured kart -->
+    <a class="card featured" href="https://sezginildes.github.io/quest-journal" target="_blank">
+      <span class="card-icon">🎮</span>
+      <div class="card-title" data-en>Quest Journal</div>
+      <div class="card-title" data-tr>Quest Journal</div>
+      <div class="card-desc" data-en>Gamification-based web app for personal & organizational development. Daily check-ins, goal tracking, and progress visualization. Built with Supabase backend.</div>
+      <div class="card-desc" data-tr>Kişisel ve kurumsal gelişim için oyunlaştırma tabanlı web uygulaması. Günlük check-in, hedef takibi ve ilerleme görselleştirme. Supabase backend ile.</div>
+      <span class="card-badge green">Live App · GitHub Pages</span>
+    </a>
+
+    <a class="card" href="https://sezginildes.github.io/odak-takip/" target="_blank">
+      <span class="card-icon">🔍</span>
+      <div class="card-title" data-en>Odak Takip — Daily Focus Form</div>
+      <div class="card-title" data-tr>Odak Takip — Günlük Gözlem Formu</div>
+      <div class="card-desc" data-en>A structured daily observation form where parents track their child's focus, behavior, and mood — responses feed directly into the coach's tracking system.</div>
+      <div class="card-desc" data-tr>Velilerin çocuklarının odak, davranış ve ruh halini günlük olarak takip ettiği yapılandırılmış form — yanıtlar doğrudan koçun takip sistemine aktarılıyor.</div>
+      <span class="card-badge blue">Stakeholder Feedback · Live</span>
+    </a>
+
+    <a class="card" href="#" target="_blank">
       <span class="card-icon">📊</span>
       <div class="card-title" data-en>Student Performance Tracker</div>
       <div class="card-title" data-tr>Öğrenci Performans Takip Sistemi</div>
-      <div class="card-desc" data-en>Excel-based tracking system digitizing student performance monitoring for parents & school management. Power BI integration in progress.</div>
+      <div class="card-desc" data-en>Excel-based system digitizing student performance monitoring for parents & management. Power BI integration in progress.</div>
       <div class="card-desc" data-tr>Ebeveynler ve okul yönetimi için öğrenci performans takibini dijitalleştiren Excel tabanlı sistem. Power BI entegrasyonu devam ediyor.</div>
       <span class="card-badge blue">Excel · Power BI</span>
     </a>
 
-    <a class="card" href="https://linkedin.com/in/sezginildes" target="_blank">
+    <a class="card" href="#" target="_blank">
       <span class="card-icon">🧠</span>
-      <div class="card-title" data-en>36-Week Counseling Curriculum</div>
-      <div class="card-title" data-tr>36 Haftalık Danışmanlık Programı</div>
-      <div class="card-desc" data-en>A structured psychological counseling program for high school students covering exam anxiety, focus enhancement, and performance management.</div>
-      <div class="card-desc" data-tr>Sınav kaygısı, odaklanma ve performans yönetimini kapsayan lise öğrencileri için yapılandırılmış program.</div>
+      <div class="card-title" data-en>36-Week Development Curriculum</div>
+      <div class="card-title" data-tr>36 Haftalık Gelişim Programı</div>
+      <div class="card-desc" data-en>Structured psycho-educational program covering exam anxiety, focus management, and performance — designed for institutional use.</div>
+      <div class="card-desc" data-tr>Sınav kaygısı, odaklanma ve performans yönetimini kapsayan kurumsal kullanım için tasarlanmış program.</div>
       <span class="card-badge green">Curriculum Design</span>
     </a>
 
@@ -775,17 +640,17 @@
       <span class="card-icon">🗺️</span>
       <div class="card-title" data-en>Career Roadmap Templates</div>
       <div class="card-title" data-tr>Kariyer Yol Haritası Şablonları</div>
-      <div class="card-desc" data-en>Personalized roadmap templates used across 50+ coaching sessions. Designed in Notion for easy adaptation.</div>
+      <div class="card-desc" data-en>Personalized roadmap templates used across 50+ coaching sessions. Designed in Notion.</div>
       <div class="card-desc" data-tr>50+ koçluk seansında kullanılan, Notion'da tasarlanmış kişiselleştirilebilir yol haritası şablonları.</div>
       <span class="card-badge">Notion · Template</span>
     </a>
 
-    <a class="card" href="https://linkedin.com/in/sezginildes" target="_blank">
+    <a class="card" href="#" target="_blank">
       <span class="card-icon">🤖</span>
-      <div class="card-title" data-en>AI-Assisted Learning Systems</div>
-      <div class="card-title" data-tr>Yapay Zeka Destekli Öğrenme Sistemleri</div>
-      <div class="card-desc" data-en>Using Gemini & AI tools to automate repetitive L&D processes and create personalized learning pathways. Certified: Generative AI for Educators.</div>
-      <div class="card-desc" data-tr>Gemini ve yapay zeka araçlarıyla tekrarlayan L&D süreçlerini otomatize etme ve kişiselleştirilmiş öğrenme yolları oluşturma.</div>
+      <div class="card-title" data-en>AI-Assisted L&D Systems</div>
+      <div class="card-title" data-tr>Yapay Zeka Destekli L&D Sistemleri</div>
+      <div class="card-desc" data-en>Automating repetitive L&D workflows and building personalized learning paths using Gemini. Google Certified: Generative AI for Educators.</div>
+      <div class="card-desc" data-tr>Gemini ile tekrarlayan L&D süreçlerini otomatize etme ve kişiselleştirilmiş öğrenme yolları. Google Sertifikalı: Eğitimciler için Üretken Yapay Zeka.</div>
       <span class="card-badge blue">Gemini · AI · Automation</span>
     </a>
 
@@ -793,23 +658,14 @@
       <span class="card-icon">▶️</span>
       <div class="card-title" data-en>YouTube Channel</div>
       <div class="card-title" data-tr>YouTube Kanalı</div>
-      <div class="card-desc" data-en>Educational content on learning psychology, study systems, and personal development.</div>
-      <div class="card-desc" data-tr>Öğrenme psikolojisi, çalışma sistemleri ve kişisel gelişim üzerine eğitici içerikler.</div>
+      <div class="card-desc" data-en>Educational content on learning psychology, work systems, and personal development in TR & EN.</div>
+      <div class="card-desc" data-tr>Öğrenme psikolojisi, çalışma sistemleri ve kişisel gelişim üzerine TR & EN içerikler.</div>
       <span class="card-badge green">Content · TR + EN</span>
-    </a>
-
-    <a class="card" href="https://linkedin.com/in/sezginildes" target="_blank">
-      <span class="card-icon">💡</span>
-      <div class="card-title" data-en>Be the Leader of Your Life</div>
-      <div class="card-title" data-tr>Hayatının Lideri Ol</div>
-      <div class="card-desc" data-en>Psycho-education seminar series for groups of 50+ students covering motivation, internal discipline, and group dynamics.</div>
-      <div class="card-desc" data-tr>50+ öğrenciye yönelik motivasyon, iç disiplin ve grup dinamiklerini kapsayan psiko-eğitim seminer serisi.</div>
-      <span class="card-badge">Workshop · Seminar</span>
     </a>
   </div>
 </section>
 
-<!-- WRITING / BLOG -->
+<!-- WRITING -->
 <section id="writing">
   <div class="sec-header">
     <span class="sec-label" data-en>Writing & Thinking</span>
@@ -822,7 +678,7 @@
     <div>
       <div class="post-title" data-en>Why "studying harder" is the wrong question</div>
       <div class="post-title" data-tr>"Daha çok çalışmak" neden yanlış soru?</div>
-      <div class="post-preview" data-en>Most students struggle not because of lack of effort, but because of invisible system gaps. Here's what I've found after guiding 50+ learners.</div>
+      <div class="post-preview" data-en>Most students struggle not because of lack of effort, but because of invisible system gaps. What I've found after guiding 50+ learners.</div>
       <div class="post-preview" data-tr>Öğrencilerin çoğu çaba eksikliğinden değil, görünmez sistem boşluklarından dolayı zorlanıyor. 50+ öğrenciyle çalışmamda öğrendiklerim.</div>
       <span class="post-lang">🇬🇧 EN</span>
     </div>
@@ -855,7 +711,7 @@
     <div>
       <div class="post-title" data-en>AI tools for educators: what actually works</div>
       <div class="post-title" data-tr>Eğitimciler için yapay zeka araçları: gerçekten işe yarayan nedir?</div>
-      <div class="post-preview" data-en>After getting certified in Generative AI for Educators, here's my honest take on which tools fit learning design.</div>
+      <div class="post-preview" data-en>After getting certified in Generative AI for Educators, my honest take on which tools fit learning design.</div>
       <div class="post-preview" data-tr>Gemini sertifikasını aldıktan sonra hangi araçların öğrenme tasarımına gerçekten uyduğuna dair dürüst değerlendirmem.</div>
       <span class="post-lang">🇹🇷 TR</span>
     </div>
@@ -877,14 +733,14 @@
 
   <div class="skills-grid">
     <div class="skill-group">
-      <h4 data-en>Psychology & Learning</h4>
-      <h4 data-tr>Psikoloji & Öğrenme</h4>
+      <h4 data-en>Psychology & Development</h4>
+      <h4 data-tr>Psikoloji & Gelişim</h4>
       <div class="skill-list">
-        <div class="skill-item"><span class="skill-dot"></span>Educational Psychology</div>
-        <div class="skill-item"><span class="skill-dot"></span>Counseling</div>
+        <div class="skill-item"><span class="skill-dot"></span>Behavioral Science</div>
+        <div class="skill-item"><span class="skill-dot"></span>Psycho-education Design</div>
         <div class="skill-item"><span class="skill-dot"></span>Curriculum Design</div>
-        <div class="skill-item"><span class="skill-dot"></span>Psycho-education</div>
-        <div class="skill-item"><span class="skill-dot"></span>System Thinking</div>
+        <div class="skill-item"><span class="skill-dot"></span>Career Coaching</div>
+        <div class="skill-item"><span class="skill-dot"></span>Systems Thinking</div>
       </div>
     </div>
 
@@ -892,11 +748,11 @@
       <h4 data-en>HR & Talent</h4>
       <h4 data-tr>İK & Yetenek</h4>
       <div class="skill-list">
-        <div class="skill-item"><span class="skill-dot"></span>Talent Acquisition</div>
-        <div class="skill-item"><span class="skill-dot"></span>Career Coaching</div>
-        <div class="skill-item"><span class="skill-dot"></span>Interview Coordination</div>
+        <div class="skill-item"><span class="skill-dot"></span>Talent Assessment</div>
         <div class="skill-item"><span class="skill-dot"></span>Onboarding Design</div>
         <div class="skill-item"><span class="skill-dot"></span>LMS</div>
+        <div class="skill-item"><span class="skill-dot"></span>OKR / KPI Tracking</div>
+        <div class="skill-item"><span class="skill-dot"></span>Behavioral Interviews</div>
       </div>
     </div>
 
@@ -904,10 +760,10 @@
       <h4 data-en>Data & Tools</h4>
       <h4 data-tr>Veri & Araçlar</h4>
       <div class="skill-list">
-        <div class="skill-item"><span class="skill-dot"></span>Notion</div>
         <div class="skill-item"><span class="skill-dot"></span>Excel (Advanced)</div>
         <div class="skill-item"><span class="skill-dot"></span>Power BI</div>
-        <div class="skill-item"><span class="skill-dot"></span>Google Workspace</div>
+        <div class="skill-item"><span class="skill-dot"></span>SPSS</div>
+        <div class="skill-item"><span class="skill-dot"></span>Python</div>
         <div class="skill-item"><span class="skill-dot"></span>Generative AI (Gemini)</div>
       </div>
     </div>
