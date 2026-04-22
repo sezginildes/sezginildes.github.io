@@ -1,6 +1,6 @@
 # sezginildes.github.io
 
-Personal portfolio site — **[sezginildes.github.io](https://sezginildes.github.io)**
+Personal portfolio site -- **[sezginildes.github.io](https://sezginildes.github.io)**
 
 ---
 
@@ -9,7 +9,7 @@ Personal portfolio site — **[sezginildes.github.io](https://sezginildes.github
 I'm Sezgin İldeş, a **People Development Specialist** based in Istanbul.  
 My work sits at the intersection of behavioral science, data tools, and learning design.
 
-This site is a living portfolio of the systems and tools I build — from structured development programs to gamified tracking apps.
+This site is a living portfolio of the systems and tools I build -- from structured development programs to gamified tracking apps.
 
 ---
 
