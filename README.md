@@ -33,7 +33,7 @@ This site is a living portfolio of the systems and tools I build -- from structu
 ## Connect
 
 - 🔗 [linkedin.com/in/sezginildes](https://linkedin.com/in/sezginildes)
-- 📅 [calendly.com/sezginildes](https://calendly.com/sezgin-ildes)
+- 📅 [calendly.com/sezgin-ildes](https://calendly.com/sezgin-ildes)
 - 📧 sezgin.ildes@gmail.com
 - ▶️ [youtube.com/@sezginildes](https://youtube.com/@sezginildes)
 
